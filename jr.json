@@ -1,0 +1,144 @@
+{
+  "access": [
+    { "object" : "public", "section" : "api", "subject" : "app", "operation" : "sing.in", "rules" : [ ]},
+    { "object" : "public", "section" : "api", "subject" : "app", "operation" : "sing.up", "rules" : [ ]},
+    { "object" : "public", "section" : "api", "subject" : "app", "operation" : "about.view", "rules" : [ ]},
+    { "object" : "public", "section" : "api", "subject" : "app", "operation" : "index.view", "rules" : [ ]},
+    { "object" : "guest", "section" : "api", "subject" : "app", "operation" : "sign.in", "rules" : [ ]},
+    { "object" : "guest", "section" : "api", "subject" : "app", "operation" : "sign.up", "rules" : [ ]},
+    { "object" : "guest", "section" : "api", "subject" : "app", "operation" : "about.view", "rules" : [ ]},
+    { "object" : "guest", "section" : "api", "subject" : "app", "operation" : "index.view", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "app", "operation" : "dashboard.view", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "app", "operation" : "profile.view", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "app", "operation" : "profile.edit", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "app", "operation" : "sign.out", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "app", "operation" : "index.view", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "service", "operation" : "view", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "service", "operation" : "do", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "service", "operation" : "list", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "service", "operation" : "create", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "service", "operation" : "edit", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "player", "operation" : "group.add", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "player", "operation" : "group.edit", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "player", "operation" : "group.delete", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "player", "operation" : "group.view", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "player", "operation" : "group.list", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "trigger", "operation" : "create", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "trigger", "operation" : "do", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "trigger", "operation" : "list", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "trigger", "operation" : "run", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "trigger", "operation" : "edit", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "trigger", "operation" : "suspend", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "trigger", "operation" : "release", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "trigger", "operation" : "delete", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "trigger", "operation" : "restore", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "trigger", "operation" : "remove", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "trigger", "operation" : "view", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "trigger", "operation" : "share", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "trigger", "operation" : "share.cancel", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "api", "operation" : "compare", "rules" : [ ]},
+    { "object" : "authorized", "section" : "api", "subject" : "player", "operation" : "do", "rules" : [ ]},
+    { "object" : "admin", "section" : "api", "subject" : "player", "operation" : "create", "rules" : [ ]},
+    { "object" : "admin", "section" : "api", "subject" : "player", "operation" : "view", "rules" : [ ]},
+    { "object" : "admin", "section" : "api", "subject" : "player", "operation" : "list", "rules" : [ ]},
+    { "object" : "admin", "section" : "api", "subject" : "player", "operation" : "edit", "rules" : [ ]},
+    { "object" : "admin", "section" : "api", "subject" : "access", "operation" : "create", "rules" : [ ]},
+    { "object" : "admin", "section" : "api", "subject" : "access", "operation" : "edit", "rules" : [ ]},
+    { "object" : "admin", "section" : "api", "subject" : "access", "operation" : "delete", "rules" : [ ]},
+    { "object" : "admin", "section" : "api", "subject" : "access", "operation" : "view", "rules" : [ ]},
+    { "object" : "admin", "section" : "api", "subject" : "trigger", "operation" : "test", "rules" : [ ]},
+    { "object" : "admin", "section" : "api", "subject" : "api", "operation" : "service", "rules" : [ ]},
+    { "object" : "admin", "section" : "api", "subject" : "api", "operation" : "user", "rules" : [ ]},
+    { "object" : "admin", "section" : "api", "subject" : "api", "operation" : "player", "rules" : [ ]},
+    { "object" : "admin", "section" : "api", "subject" : "api", "operation" : "access", "rules" : [ ]},
+    { "object" : "admin", "section" : "api", "subject" : "api", "operation" : "trigger", "rules" : [ ]}
+  ],
+  "plugins": [
+    {
+      "class": "jr\\components\\plugins\\access\\AccessPluginDfServiceInstall",
+      "stage": "jr.service.install"
+    }
+  ],
+  "extensions": [
+    {
+      "class": "jr\\components\\extensions\\access\\AccessContextExtension",
+      "interface": "jr\\interfaces\\extensions\\access\\IAccessContextExtension",
+      "subject": "context",
+      "methods": [
+        "createAccess",
+        "hasAccess",
+        "getAccessSection",
+        "getAccessSubject",
+        "getCurrentPlayer"
+      ]
+    },
+    {
+      "class": "jr\\components\\extensions\\patterns\\access\\AccessExtensionPatternCsvV1",
+      "interface": "jr\\interfaces\\patterns\\access\\IAccessPatternCsvV1",
+      "subject": "jr.pattern.access.csv.v1",
+      "methods": [
+        "getAccessCsv"
+      ]
+    },
+    {
+      "class": "jr\\components\\extensions\\patterns\\access\\AccessExtensionPatternTriggerOperationV1",
+      "interface": "jr\\interfaces\\patterns\\access\\IAccessPatternTriggerOperationV1",
+      "subject": "jr.pattern.access.trigger.operation.v1",
+      "methods": [
+        "getAccess",
+        "getAccessOperation"
+      ]
+    },
+    {
+      "class": "jr\\components\\extensions\\patterns\\access\\AccessExtensionPatternV1",
+      "interface": "jr\\interfaces\\patterns\\access\\IAccessPatternV1",
+      "subject": "jr.pattern.access.v1",
+      "methods": [
+        "getAccess"
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "name": "jr.pattern.access.v1",
+      "description": "Access pattern v1",
+      "version": "1.0",
+      "schema": {
+        "version": "<string>",
+        "token": "<string>",
+        "action": "<string>",
+        "data": {
+          "access": "<object>"
+        }
+      }
+    },
+    {
+      "name": "jr.pattern.access.csv.v1",
+      "description": "Access upload from csv v1",
+      "version": "1.0",
+      "schema": {
+        "version": "<string>",
+        "token": "<string>",
+        "action": "<string>",
+        "data": {
+          "access_csv": "<string>"
+        }
+      }
+    },
+    {
+      "name": "jr.pattern.access.trigger.operation.v1",
+      "description": "Access for trigger operations pattern v1",
+      "version": "1.0",
+      "schema": {
+        "version": "<string>",
+        "token": "<string>",
+        "action": "<string>",
+        "data": {
+          "access": {
+            "operation": "<string>"
+          }
+        }
+      }
+    }
+  ]
+}
